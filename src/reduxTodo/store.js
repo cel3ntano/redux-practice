@@ -16,6 +16,7 @@ import { filteredReducer } from './filteredSlice';
 const persistConfig = {
   key: 'todos',
   blacklist: ['_persist'],
+  whitelist: ['items'],
 
   storage,
 };
