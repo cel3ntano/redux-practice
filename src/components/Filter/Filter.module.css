@@ -1,0 +1,31 @@
+.input {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border-style: none;
+
+  border-bottom: 2px solid #212121;
+  background-color: transparent;
+
+  outline: none;
+
+  transition: var(--animation-cubicBezier);
+
+  font-size: var(--font-medium);
+  color: var(--color-dark);
+  font-weight: 300;
+  letter-spacing: 0.03em;
+
+  &::placeholder {
+    text-align: center;
+    font-weight: 200;
+    color: var(--color-gray);
+  }
+}
+
+.input:hover,
+.input:focus {
+  box-shadow: var(--shadow-regular);
+}

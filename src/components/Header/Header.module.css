@@ -1,0 +1,22 @@
+.header {
+  padding: 20px 0;
+
+  background-color: #fff;
+
+  box-shadow: var(--shadow-regular);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  color: var(--color-dark);
+  font-size: var(--font-medium);
+  font-weight: 700;
+  text-transform: uppercase;
+}
